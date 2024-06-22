@@ -55,8 +55,10 @@ a:visited {
     background-size: cover; /* Cover ensures the div is completely covered by the image */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    margin: 25px;
     border-radius: 10px;
+}
+.landing-wrapper{
+    padding: 25px; /* Adds padding inside the div. Adding marging to landing div didn't worked on safari */
 }
 .landingtext{
     text-align: center;
