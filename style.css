@@ -73,7 +73,7 @@ a:visited {
     padding-bottom: 50px;
     position: absolute; /* Positions the element absolutely within its parent */
     top: 0; /* Sticks the element to the top of its parent */
-    margin-top: 120px;
+    margin-top: 110px;
 }
 .landingtext h1{
     font-size: 100px;
