@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 767px)">
     <title>Akash Sampath</title>
 </head>
 <body>
@@ -23,13 +25,19 @@
             </ul>
         </div>
     </nav>
+    <div class="contents-wrapper"> <!-- Div for separating navbar from body to optimize for mobile-->
     <div class="landing-wrapper"> <!-- Div for adding padding around the landing div for Safari browsers -->
     <div class="landing">
         <div class="landingtext">
             <h1>Akash Sampath</h1>
             <p>❝ Maximum Effort ❞</p>
         </div>
-    </div>
-    </div>
+        <div class="landingbuttons">
+            <button class="transparentbutton">Show CV</button>
+            <button class="glowbutton">Know about me</button>
+        </div> <!-- Div for buttons -->
+    </div> <!-- Div for landing -->
+    </div> <!-- Div for landing-wrapper -->
+</div><!-- Div for contents-wrapper -->
 </body>
 </html>
