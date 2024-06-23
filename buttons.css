@@ -60,6 +60,7 @@
     border-radius: 4px;
     background-color: transparent;
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border: solid 0.5px #ffffff5d;
     border-radius: 10px;
     color: #FFFFFF;
