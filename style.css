@@ -1,95 +1,107 @@
+@keyframes autoBlurAnimation {
+    0% {
+        filter: blur(40px);
+    }
+    50%, 55%{
+        filter: blur(0px);
+    }
+    100% {
+        filter: blur(40px);
+    }
+}
+@keyframes slideInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    50%, 55%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+}
 *{
     margin: 0;
+    border: 0;
+    font-family: "Inter", sans-serif;
+}
+a{
     text-decoration: none;
+    color: inherit;
 }
 body{
-    background-color: rgb(0, 0, 0);
-    padding-top: 60px;
-}
-.navbar{
-    background-color: rgba(0, 0, 0, 0.817);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    color: rgb(255, 255, 255);
-    padding-left: 65px;
-    padding-right: 75px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    position: fixed;
-    width: 100%;
-    box-sizing: border-box;
-    box-shadow: 0 1px 50px rgba(0,0,0,0.1);
-    top: 0;
-    z-index: 1000;
-}
-.navdiv{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-li{
-    display: inline-block;
-    padding-left: 15px;
-    flex-wrap: nowrap;
+    background: #000;
+    color: white;
 }
 .logo{
-    text-align: center;
-    display:inline;
-    display: flex;
-    align-items: center;
+    height: 50px;
+    width: auto;
     filter: brightness(0) invert(1);
-    transform: scale(0.9); /* Scales the image down to 90% of its original size */
 }
-a {
-    color: inherit; /* this makes the link color the same as the text color */
-    text-decoration: none; /* this removes the underline */
-}
-
-a:visited {
-    color: inherit; /* this makes the link color the same as the text color even after it's been clicked */
-}
-
-/* Code for Navbar contents ends here*/
-
-.landing{
+.logowrap{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust or remove this if you want the div to adapt to the image size */
-    background-image: url('landing.jpeg');
-    background-size: cover; /* Cover ensures the div is completely covered by the image */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    border-radius: 10px;
+    position: fixed;
+    top: 30px;
+    left: 75px;
+    background-color: #151517;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 }
-.landing-wrapper{
-    padding: 25px; /* Adds padding inside the div. Adding marging to landing div didn't worked on safari */
-}
-.landingtext{
+.hero{
     text-align: center;
+    height: 100dvh;
+    width: 100vw;
+}
+.hero h1{
+    padding-top: 45vh;
+    font-size: 4.5rem;
+    font-weight: 250;
+}
+.hero h1 span{
+    color: #60667B;
+}
+.hero p{
+    margin-top: 20px;
+    font-size: 1.2vw;
+    font-weight: 150;
+}
+.about{
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    font-weight: 100;
+}
+.about p{
+    font-size: 3rem;
+    color: #60667B;
+}
+.about p span{
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: absolute; /* Positions the element absolutely within its parent */
-    top: 0; /* Sticks the element to the top of its parent */
-    margin-top: 110px;
 }
-.landingtext h1{
-    font-size: 100px;
-    color: gray;
-    font-family: "Teko", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+.about h1{
+    margin-top: 300px;
+    margin-bottom: 100px;
+    font-weight: 100;
+    font-size: 7rem;
+    animation: slideInUp 1s;
+    animation-timeline: view();
 }
-.landingtext p{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    font-family: "Teko", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+.about h3{
+    padding-top: 10px;
+    text-wrap:  nowrap;
+    font-size: 5.5rem;
+    color: #9099ba;
 }
-
-/* Code for Landing View contents ends here*/
+.autoBlur{
+    /* animation: autoBlurAnimation linear both; */
+    animation-timeline: view();
+}
+.about a{
+    font-size: 3rem;
+}
