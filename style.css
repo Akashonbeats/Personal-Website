@@ -99,7 +99,7 @@ body{
     color: #9099ba;
 }
 .autoBlur{
-    /* animation: autoBlurAnimation linear both; */
+    animation: autoBlurAnimation linear both;
     animation-timeline: view();
 }
 .about a{
