@@ -9,6 +9,20 @@
         filter: blur(40px);
     }
 }
+@-webkit-keyframes autoBlurAnimation {
+    0% {
+        -webkit-filter: blur(40px);
+                filter: blur(40px);
+    }
+    50%, 55% {
+        -webkit-filter: blur(0px);
+                filter: blur(0px);
+    }
+    100% {
+        -webkit-filter: blur(40px);
+                filter: blur(40px);
+    }
+}
 @keyframes slideInUp {
     0% {
         opacity: 0;
@@ -21,6 +35,23 @@
     100%{
         opacity: 0;
         transform: translateY(30px);
+    }
+}
+@-webkit-keyframes slideInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px);
+                transform: translateY(-30px);
+    }
+    50%, 55% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(30px);
+                transform: translateY(30px);
     }
 }
 *{
