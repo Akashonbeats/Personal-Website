@@ -60,7 +60,7 @@ body{
     width: 100%;
 }
 .hero h1{
-    padding-top: 45vh;
+    padding-top: 400px;
     font-size: 4.5rem;
     font-weight: 250;
 }
@@ -79,6 +79,8 @@ body{
     font-weight: 100;
 }
 .about p{
+    margin-top: 20vh;
+    margin-bottom: 37vh;
     font-size: 3rem;
     color: #60667B;
 }
@@ -86,7 +88,7 @@ body{
     color: white;
 }
 .about h1{
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 100px;
     font-weight: 100;
     font-size: 7rem;
@@ -105,4 +107,25 @@ body{
 }
 .about a{
     font-size: 3rem;
+}
+.projtitle{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 7rem;
+}
+.projects{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.projects div{
+    height: 400px;
+    width: 400px;
+    border-radius: 5%;
+    background-color: #151517;
 }
