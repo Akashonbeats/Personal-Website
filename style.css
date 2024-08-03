@@ -10,7 +10,7 @@
     }
 }
 @keyframes slideInUp {
-    0% {
+    0%, 10%{
         opacity: 0;
         transform: translateY(-30px);
     }
@@ -114,6 +114,8 @@ body{
     text-align: center;
     font-weight: 100;
     font-size: 7rem;
+    animation: slideInUp 2s;
+    animation-timeline: view();
 }
 .projects{
     padding-left: 50px;
@@ -123,9 +125,83 @@ body{
     flex-wrap: wrap;
     gap: 20px;
 }
-.projects div{
+.aesthetisia, .warcards, .sushimenu, .XOXO, .AVA, .ELM{
+    text-align: center;
     height: 400px;
     width: 400px;
     border-radius: 5%;
     background-color: #151517;
+    transition: background-color 1s, transform 0.5s;
+}
+.aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover{
+    background-color: #2B2D36;
+    transform: scale(1.2);
+    transition: background-color 1s, transform 0.5s;
+}
+.aesthetisia img{
+    height: 50px;
+    width: auto;
+    margin-top: 100px;
+}
+.aesthetisialinks{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    margin-top: 140px;
+}
+.warcards img{
+    height: 150px;
+    width: auto;
+    margin-top: 50px;
+}
+.warcardslinks{
+    margin-top: 100px;
+}
+.sushimenu img{
+    height: 200px;
+    width: auto;
+    margin-top: 30px;
+    scale: 1.1;
+    filter: brightness(0) invert(1);
+}
+.sushimenulinks{
+    margin-top: 70px;
+}
+.XOXO img{
+    height: 200px;
+    width: auto;
+    margin-top: 30px;
+    scale: 1.1;
+}
+.XOXO h5{
+    background-color: rgba(137, 87, 229, 0.503);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.XOXOlinks{
+    margin-top: 70px;
+}
+.AVA h1{
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 90px;
+}
+.AVAlinks{
+    margin-top: 140px;
+}
+.ELM h1{
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ELM h5{
+    background-color: rgba(137, 87, 229, 0.503);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 60px;
+}
+.ELMlinks{
+    margin-top: 50px;
 }
