@@ -101,6 +101,10 @@ body{
     font-size: 5.5rem;
     color: #9099ba;
 }
+.autoBlur img{
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
 .autoBlur{
     animation: autoBlurAnimation linear both;
     animation-timeline: view();
@@ -204,4 +208,21 @@ body{
 }
 .ELMlinks{
     margin-top: 50px;
+}
+.moreproj{
+    margin-top: 20vh;
+    margin-bottom: 37vh;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #60667B;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+.moreproj a{
+    color: white;
+}
+.moreproj img{
+    height: 15px;
+    filter: brightness(0) invert(1);
 }
