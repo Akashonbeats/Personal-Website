@@ -226,3 +226,44 @@ body{
     height: 15px;
     filter: brightness(0) invert(1);
 }
+.downloadables{
+    margin-bottom: 100px;
+    font-weight: 100;
+    font-size: 7rem;
+    text-align: center;
+    animation: slideInUp 1s;
+    animation-timeline: view();
+}
+.downloadswrap{
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    font-weight: 100;
+}
+.resume{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.resume h3{
+    font-size: 4rem;
+    font-weight: 100;
+    color: #9099ba;
+}
+.resume a{
+    padding-top: 7px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-decoration: underline #63687B;
+}
+.resume a img{
+    padding-left: 10px;
+    height: 15px;
+    filter: brightness(0) invert(1);
+}
+.downloadswrap div:nth-child(2){
+    margin-top: 200px;
+}
