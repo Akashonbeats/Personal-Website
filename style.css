@@ -64,7 +64,7 @@ body{
 }
 .hero h1{
     padding-top: 400px;
-    font-size: 4.5rem;
+    font-size: 4.8vw;
     font-weight: 250;
 }
 .hero h1 span{
@@ -72,7 +72,7 @@ body{
 }
 .hero p{
     margin-top: 20px;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     font-weight: 150;
 }
 .about{
@@ -94,14 +94,14 @@ body{
     margin-top: 200px;
     margin-bottom: 100px;
     font-weight: 100;
-    font-size: 7rem;
+    font-size: 7.3vw;
     animation: slideInUp 1s;
     animation-timeline: view();
 }
 .about h3{
     padding-top: 10px;
     text-wrap:  nowrap;
-    font-size: 5.5rem;
+    font-size: 5.6vw;
     color: #9099ba;
 }
 .autoBlur img{
@@ -120,7 +120,7 @@ body{
     margin-bottom: 100px;
     text-align: center;
     font-weight: 100;
-    font-size: 7rem;
+    font-size: 7.3vw;
     animation: slideInUp 2s;
     animation-timeline: view();
 }
@@ -239,7 +239,7 @@ body{
 .downloadables{
     margin-bottom: 100px;
     font-weight: 100;
-    font-size: 7rem;
+    font-size: 7.3vw;
     text-align: center;
     animation: slideInUp 1s;
     animation-timeline: view();
@@ -253,18 +253,19 @@ body{
 .resume{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
-    padding-right: 300px;
-    padding-left: 300px;
+    padding-right: 25vw;
+    padding-left: 25vw;
 }
 .resume h3{
-    font-size: 4rem;
+    font-size: 4.3vw;
     font-weight: 100;
     color: #9099ba;
 }
 .resume a{
     padding-top: 7px;
-    font-size: 1.5rem;
+    font-size: 1.8vw    ;
     font-weight: 100;
     text-decoration: underline #63687B;
 }
@@ -301,6 +302,8 @@ body{
 .footer{
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    box-sizing: border-box; /* Include padding in the element's total width */
     gap: 80px;
     padding-right: 200px;
     padding-left: 200px;
@@ -309,6 +312,7 @@ body{
 }
 .linkswrap{
     display: flex;
+    flex-wrap: wrap;
     gap: 80px;
 }
 .socials{
