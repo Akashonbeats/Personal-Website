@@ -23,6 +23,9 @@
         transform: translateY(30px);
     }
 }
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     border: 0;
@@ -138,7 +141,7 @@ body{
     transition: background-color 1s, transform 0.5s;
 }
 .aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover{
-    background-color: #2B2D36;
+    background-color: #1d1f25;
     transform: scale(1.2);
     transition: background-color 1s, transform 0.5s;
 }
@@ -209,6 +212,13 @@ body{
 .ELMlinks{
     margin-top: 50px;
 }
+.projects a{
+    font-weight:300;
+    text-decoration: underline #63687B;    
+}
+.projects a:hover{
+    color: #b7c0e2;
+}
 .moreproj{
     margin-top: 20vh;
     margin-bottom: 37vh;
@@ -244,7 +254,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 300px;
     padding-right: 300px;
     padding-left: 300px;
 }
@@ -259,6 +268,9 @@ body{
     font-weight: 100;
     text-decoration: underline #63687B;
 }
+.resume a:hover{
+    color: #63687B;
+}
 .resume a img{
     padding-left: 10px;
     height: 15px;
@@ -266,4 +278,61 @@ body{
 }
 .downloadswrap div:nth-child(2){
     margin-top: 200px;
+}
+.bwrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-weight: 100;
+}
+.backtotop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151517;
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 50px;
+    background-color: #151517;
+}
+.linkswrap{
+    display: flex;
+    gap: 80px;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+}
+.socials h1{ 
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+.socials a{
+    display: block;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #9099ba;
+}
+.socials a:hover{
+    color: #63687B;
+}
+.finalwords{
+    font-size: 0.8rem;
+    font-weight: 200;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #9099ba;
 }
