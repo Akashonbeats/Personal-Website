@@ -135,12 +135,30 @@ body{
     animation-timeline: view();
 }
 .projects{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .projects {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projects {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .projects {
+        justify-content: flex-start;
+    }
 }
 .aesthetisia, .warcards, .sushimenu, .XOXO, .AVA, .ELM{
     text-align: center;
@@ -158,71 +176,153 @@ body{
 .aesthetisia img{
     height: 50px;
     width: auto;
-    margin-top: 100px;
+    margin-top: 80px;
+}
+.aesthetisia p{
+    margin-top: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    background-color: #1d1f25;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 .aesthetisialinks{
     display: flex;
     gap: 25px;
     flex-direction: column;
-    margin-top: 140px;
+    margin-top: 20px;
 }
 .warcards img{
-    height: 150px;
+    height: 110px;
     width: auto;
     margin-top: 50px;
 }
+.warcards p{
+    margin-top: 37px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    background-color: #1d1f25;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
 .warcardslinks{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .sushimenu img{
-    height: 200px;
+    height: 140px;
     width: auto;
     margin-top: 30px;
     scale: 1.1;
     filter: brightness(0) invert(1);
 }
+.sushimenu p{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    background-color: #1d1f25;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
 .sushimenulinks{
-    margin-top: 70px;
+    margin-top: 47px;
 }
 .XOXO img{
-    height: 200px;
+    height: 150px;
     width: auto;
-    margin-top: 30px;
-    scale: 1.1;
+}
+.XOXO p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    background-color: #1d1f25;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 .XOXO h5{
     background-color: rgba(137, 87, 229, 0.503);
+    margin-top: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: 100;
 }
 .XOXOlinks{
-    margin-top: 70px;
+    margin-top: 40px;
 }
 .AVA h1{
     font-size: 2rem;
     font-weight: 100;
     margin-top: 90px;
 }
+.AVA p{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    background-color: #1d1f25;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
 .AVAlinks{
-    margin-top: 140px;
+    margin-top: 40px;
 }
 .ELM h1{
     font-size: 2rem;
     font-weight: 100;
-    margin-top: 65px;
+    margin-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
+}
+.ELM p{
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    background-color: #1d1f25;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 .ELM h5{
     background-color: rgba(137, 87, 229, 0.503);
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-top: 60px;
+    margin-top: 15px;
     font-weight: 100;
 }
 .ELMlinks{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .projects a{
     font-weight:300;
