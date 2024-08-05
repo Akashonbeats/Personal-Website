@@ -25,7 +25,7 @@
 }
 @keyframes blurVisible {
     0% {
-        filter: blur(15px);
+        filter: blur(400px);
     }
     100%{
         filter: blur(0px);
@@ -48,7 +48,7 @@ body{
     color: white;
 }
 .logo{
-    height: 50px;
+    height: 5.5vh;
     width: auto;
     filter: brightness(0) invert(1);
 }
@@ -59,9 +59,9 @@ body{
     position: fixed;
     top: 30px;
     left: 75px;
-    background-color: #151517;
-    height: 80px;
-    width: 80px;
+    background-color: #1f1f21;
+    height: 8.5vh;
+    width: 8.5vh;
     border-radius: 50%;
     z-index: 100;
 }
@@ -69,10 +69,10 @@ body{
     text-align: center;
     height: 100dvh;
     width: 100%;
-    animation: blurVisible 2s;
+    animation: blurVisible 1.5s;
 }
 .hero h1{
-    padding-top: 400px;
+    margin-top: 45vh;
     font-size: 4.8vw;
     font-weight: 250;
 }
@@ -91,7 +91,6 @@ body{
     font-weight: 100;
 }
 .about p{
-    margin-top: 20vh;
     margin-bottom: 37vh;
     padding-right: 30px;
     padding-left: 30px;
@@ -309,14 +308,14 @@ body{
     background-color: #151517;
     height: 80px;
     width: 80px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     border-radius: 50%;
 }
 .footer{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     box-sizing: border-box; /* Include padding in the element's total width */
     gap: 80px;
     padding-right: 200px;
