@@ -134,9 +134,15 @@ body{
     animation: slideInUp 2s;
     animation-timeline: view();
 }
+.projectswrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .projects{
     padding-left: 30px;
     padding-right: 30px;
+    width: 1400px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -170,7 +176,7 @@ body{
 }
 .aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover{
     background-color: #1d1f25;
-    transform: scale(1.2);
+    transform: scale(1.4);
     transition: background-color 1s, transform 0.5s;
 }
 .aesthetisia img{
@@ -405,9 +411,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #151517;
-    height: 80px;
-    width: 80px;
+    background-color: #1f1f21;
+    height: 8.5vh;
+    width: 8.5vh;
     margin-left: 15px;
     margin-right: 15px;
     border-radius: 50%;
