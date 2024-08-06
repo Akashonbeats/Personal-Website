@@ -161,7 +161,7 @@ body{
 }
 @media screen and (max-width: 1500px){
     .aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover{
-        transform: scale(1.2);
+        transform: scale(1.25);
     }
 }
 .aesthetisia img{
