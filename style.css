@@ -140,31 +140,11 @@ body{
     justify-content: center;
 }
 .projects{
-    padding-left: 30px;
-    padding-right: 30px;
     width: 1400px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-}
-
-@media screen and (max-width: 800px) {
-    .projects {
-        justify-content: flex-start;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .projects {
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .projects {
-        justify-content: flex-start;
-    }
 }
 .aesthetisia, .warcards, .sushimenu, .XOXO, .AVA, .ELM{
     text-align: center;
@@ -176,8 +156,13 @@ body{
 }
 .aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover{
     background-color: #1d1f25;
-    transform: scale(1.4);
+    transform: scale(1.3);
     transition: background-color 1s, transform 0.5s;
+}
+@media screen and (max-width: 1300px){
+    .aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover{
+        transform: scale(1.2);
+    }
 }
 .aesthetisia img{
     height: 50px;
