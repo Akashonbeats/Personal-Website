@@ -149,7 +149,7 @@ body{
     flex-wrap: wrap;
     gap: 20px;
 }
-.aesthetisia, .warcards, .sushimenu, .XOXO, .AVA, .ELM{
+.aesthetisia, .warcards, .sushimenu, .XOXO, .AVA, .ELM, .LooneyLists, .NotationXL{
     text-align: center;
     height: 400px;
     width: 400px;
@@ -157,13 +157,13 @@ body{
     background-color: #151517;
     transition: background-color 1s, transform 0.5s;
 }
-.aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover{
+.aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover, .LooneyLists:hover, .NotationXL:hover{
     background-color: #1d1f25;
     transform: scale(1.5);
     transition: background-color 1s, transform 0.5s;
 }
 @media screen and (max-width: 1500px){
-    .aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover{
+    .aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover, .LooneyLists:hover, .NotationXL:hover{
         transform: scale(1.25);
     }
 }
@@ -317,6 +317,77 @@ body{
 }
 .ELMlinks{
     margin-top: 40px;
+}
+.LooneyLists h1{
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.LooneyLists p{
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    background-color: #1d1f25;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+.Looneylinks{
+    margin-top: 40px;
+}
+.Looneylinks a{
+    display: block;
+}
+.Looneylinks a:nth-child(2){
+    margin-top: 20px;
+}
+.NotationXL h1{
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.NotationXL span{
+    color: rgb(148, 0, 185);
+}
+.NotationXL p{
+    margin-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8rem;
+    font-weight: 100;
+    background-color: #1d1f25;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+.NotationXL h5{
+    background-color: #012c90;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    font-weight: 100;
+}
+.XLlinks{
+    margin-top: 40px;
+}
+.XLlinks a{
+    display: block;
+}
+.XLlinks a:nth-child(2){
+    margin-top: 20px;
 }
 .projects a{
     font-weight:300;
