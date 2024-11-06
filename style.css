@@ -319,12 +319,16 @@ body{
     margin-top: 40px;
 }
 .LooneyLists h1{
-    font-size: 2rem;
-    font-weight: 100;
+    font-family: "Style Script", cursive;
+    color: #1e93a7;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 2.8rem;
     margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
+}
+.LooneyLists h1 span{
+    color: #fff9c7;
+    font-family: "Style Script", cursive;
 }
 .LooneyLists p{
     margin-top: 25px;
@@ -350,7 +354,7 @@ body{
     margin-top: 20px;
 }
 .NotationXL h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 200;
     margin-top: 50px;
     padding-left: 20px;
@@ -360,7 +364,7 @@ body{
     color: rgb(148, 0, 185);
 }
 .NotationXL p{
-    margin-top: 45px;
+    margin-top: 35px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: 20px;
