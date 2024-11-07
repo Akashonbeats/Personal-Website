@@ -47,6 +47,7 @@
 }
 .projtitle{
     font-size: 6.3vh;
+    margin-inline: 25px;
 }
 .projects{
     width: 100vw;
@@ -82,6 +83,9 @@
 .resume h3{
     font-size: 1.7rem;
 }
+.resume a{
+    font-size: 0.9rem;
+}
 .bwrap{
     font-size: 1.2rem;
 }
@@ -105,5 +109,5 @@
     font-size: 1.5rem;
 }
 .socials a{
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
