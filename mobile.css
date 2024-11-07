@@ -49,20 +49,20 @@
     font-size: 6.3vh;
 }
 .projects{
-    width: auto;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 0px;
 }
-.aesthetisia, .warcards, .sushimenu, .XOXO, .AVA, .ELM{
-    height: 400px;
-    width: 400px;
+.aesthetisia, .warcards, .sushimenu, .XOXO, .AVA, .ELM, .LooneyLists, .NotationXL{
+    height: 420px;
+    width: 420px;
     transform: scale(0.89);
     background-color: #151517;
 }
-.aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover{
+.aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover, .LooneyLists:hover, .NotationXL:hover{
     background-color: #151517;
     transform: scale(0.89);
     transition: background-color 1s, transform 0.5s;
@@ -71,4 +71,39 @@
     margin-top: 37vh;
     margin-bottom: 37vh;
     font-size: 3rem;
+}
+.downloadables{
+    margin-top: 37vh;
+    font-size: 3rem;
+}
+.resume{
+    padding-inline: 15vw;
+}
+.resume h3{
+    font-size: 1.7rem;
+}
+.bwrap{
+    font-size: 1.2rem;
+}
+.bwrap span{
+    width: 60px;
+    height: 60px;
+}
+.footer{
+    width: 100vw;
+    padding-inline: 20px;
+}
+.socials{
+    display: flex;
+    justify-content:flex-start;
+    padding-inline: 20px;
+}
+.socials :nth-child(2){
+    flex-direction: row;
+}
+.socials h1{
+    font-size: 1.5rem;
+}
+.socials a{
+    font-size: 0.8rem;
 }
