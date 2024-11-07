@@ -45,6 +45,10 @@
     text-wrap:  wrap;
     font-size: 4.6vh;
 }
+.autoBlur img{
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
 .projtitle{
     font-size: 6.3vh;
     margin-inline: 25px;
