@@ -170,5 +170,24 @@
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "nijx0c159o");
+
+    /////////////////////////////////////////////////////////////////////////////////////
+    
+    // Safari Blur Fix
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Function to detect Safari browser
+        function isSafari() {
+            return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        }
+
+        // If the browser is Safari, remove the .autoBlur class from all <h3> elements
+        if (isSafari()) {
+            const h3Elements = document.querySelectorAll('h3.autoBlur');
+            h3Elements.forEach(element => {
+                element.classList.remove('autoBlur');
+            });
+        }
+    });
 </script>
 </html>
