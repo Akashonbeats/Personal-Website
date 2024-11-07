@@ -45,7 +45,7 @@
     text-wrap:  wrap;
     font-size: 4.6vh;
 }
-.autoBlur img{
+.about h3 a img{
     height: 20px;
     filter: brightness(0) invert(1);
 }
