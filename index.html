@@ -172,10 +172,9 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "nijx0c159o");
 
-    /////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
     
     // Safari Blur Fix
-
     document.addEventListener('DOMContentLoaded', function() {
         // Function to detect Safari browser
         function isSafari() {
@@ -190,6 +189,16 @@
             });
         }
     });
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+     // Detect touch devices and remove the .cursor div
+     if ('ontouchstart' in window || navigator.maxTouchPoints) {
+            const cursorDiv = document.querySelector('.cursor');
+            if (cursorDiv) {
+                cursorDiv.remove();
+            }
+        }
 </script>
 <script src="cursor.js"></script>
 </html>
