@@ -28,18 +28,19 @@ document.addEventListener('mousemove', updateCursorPosition);
 document.addEventListener('scroll', updateCursorOnScroll);
 
 // Click Animation
-
-document.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        cursor.classList.add('clicked');
-        setTimeout(() => {
-            cursor.classList.remove('clicked');
-            if (link.target === "_blank") {
-                window.open(link.href, '_blank');
-            } else {
-                window.location.href = link.href;
-            }
-        }, 200);
+if (!('ontouchstart' in window || navigator.maxTouchPoints)) {
+    document.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            cursor.classList.add('clicked');
+            setTimeout(() => {
+                cursor.classList.remove('clicked');
+                if (link.target === "_blank") {
+                    window.open(link.href, '_blank');
+                } else {
+                    window.location.href = link.href;
+                }
+            }, 200);
+        });
     });
-});
+}
