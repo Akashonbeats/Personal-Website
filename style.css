@@ -165,7 +165,10 @@ body{
     flex-wrap: wrap;
     gap: 20px;
 }
-.aesthetisia, .warcards, .sushimenu, .XOXO, .AVA, .ELM, .LooneyLists, .NotationXL, .CafeMenu{
+
+/* ---------------- */
+
+.aesthetisia, .warcards, .sushimenu, .XOXO, .AVA, .LooneyLists, .NotationXL, .CafeMenu{
     text-align: center;
     height: 400px;
     width: 400px;
@@ -173,16 +176,19 @@ body{
     background-color: #151517;
     transition: background-color 1s, transform 0.5s;
 }
-.aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover, .LooneyLists:hover, .NotationXL:hover, .CafeMenu:hover{
+.aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .LooneyLists:hover, .NotationXL:hover, .CafeMenu:hover{
     background-color: #1d1f25;
     transform: scale(1.5);
     transition: background-color 1s, transform 0.5s;
 }
 @media screen and (max-width: 1500px){
-    .aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover, .LooneyLists:hover, .NotationXL:hover, .CafeMenu:hover{
+    .aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .LooneyLists:hover, .NotationXL:hover, .CafeMenu:hover{
         transform: scale(1.25);
     }
 }
+
+/* ---------------- */
+
 .aesthetisia img{
     height: 50px;
     width: auto;
@@ -208,6 +214,9 @@ body{
     flex-direction: column;
     margin-top: 20px;
 }
+
+/* ---------------- */
+
 .warcards img{
     height: 110px;
     width: auto;
@@ -230,6 +239,9 @@ body{
 .warcardslinks{
     margin-top: 50px;
 }
+
+/* ---------------- */
+
 .sushimenu img{
     height: 140px;
     width: auto;
@@ -254,6 +266,9 @@ body{
 .sushimenulinks{
     margin-top: 47px;
 }
+
+/* ---------------- */
+
 .XOXO img{
     height: 150px;
     width: auto;
@@ -281,6 +296,9 @@ body{
 .XOXOlinks{
     margin-top: 40px;
 }
+
+/* ---------------- */
+
 .AVA h1{
     font-size: 2rem;
     font-weight: 100;
@@ -303,37 +321,9 @@ body{
 .AVAlinks{
     margin-top: 40px;
 }
-.ELM h1{
-    font-size: 2rem;
-    font-weight: 100;
-    margin-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.ELM p{
-    margin-top: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 0.8rem;
-    font-weight: 100;
-    background-color: #1d1f25;
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-}
-.ELM h5{
-    background-color: rgba(137, 87, 229, 0.503);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 15px;
-    font-weight: 100;
-}
-.ELMlinks{
-    margin-top: 40px;
-}
+
+/* ---------------- */
+
 .LooneyLists h1{
     font-family: "Style Script", cursive;
     color: #1e93a7;
@@ -376,6 +366,9 @@ body{
 .Looneylinks a:nth-child(2){
     margin-top: 20px;
 }
+
+/* ---------------- */
+
 .NotationXL h1{
     font-size: 2.5rem;
     font-weight: 200;
@@ -416,6 +409,7 @@ body{
 .XLlinks a:nth-child(2){
     margin-top: 20px;
 }
+
 /* ---------------- */
 
 .CafeMenu h1{
@@ -465,6 +459,9 @@ body{
 .Menulinks a:nth-child(2){
     margin-top: 20px;
 }
+
+/* ---------------- */
+
 .projects a{
     font-weight:300;
     text-decoration: underline #63687B;    
