@@ -1,8 +1,8 @@
 // Cursor Co-ordinates
 
 const cursor = document.querySelector('.cursor');
-let cursorX = 0;
-let cursorY = 0;
+let cursorX = -100; // Changed from 0 to -100 to make it render outside of the viewport initially
+let cursorY = -100; // Changed from 0 to -100 to make it render outside of the viewport initially
 
 const updateCursorPosition = (e) => {
     cursorX = e.clientX;
