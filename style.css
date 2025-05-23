@@ -59,6 +59,7 @@ body{
     background-color: white;
     mix-blend-mode: difference;
     pointer-events: none;
+    cursor: none;
     z-index: 200;
 }
 .cursor.clicked {
