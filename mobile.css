@@ -1,117 +1,131 @@
-.logo{
-    height: 4vh;
+.logo {
+  height: 4vh;
 }
-.logowrap{
-    height: 7vh;
-    width: 7vh;
-    top: 30px;
-    left: 30px;
+.logowrap {
+  height: 7vh;
+  width: 7vh;
+  top: 30px;
+  left: 30px;
 }
-.hero{
-    height: 60vh;
+.hero {
+  height: 60vh;
 }
-.hero h1 span{
-    display: block;
-    margin-bottom: 10px;
+.hero h1 span {
+  display: block;
+  margin-bottom: 10px;
 }
-.hero h1{
-    text-align: left;
-    padding-left: 35px;
-    margin-top: 40vh;
-    font-size: 9.8vw;
+.hero h1 {
+  text-align: left;
+  padding-left: 35px;
+  margin-top: 40vh;
+  font-size: 9.8vw;
 }
-.hero p{
-    font-size: 3.5vw;
-    text-align: left;
-    padding-left: 35px;
+.hero p {
+  font-size: 3.5vw;
+  text-align: left;
+  padding-left: 35px;
 }
-.about{
-    padding-right: 15px;
-    padding-left: 15px;
+.about {
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.about p{
-    margin-bottom: 20vh;
+.about p {
+  margin-bottom: 20vh;
 }
-.about h1{
-    margin-top: 200px;
-    margin-bottom: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-weight: 100;
-    font-size: 6.3vh;
+.about h1 {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 100;
+  font-size: 6.3vh;
 }
-.about h3{
-    padding-top: 20px;
-    text-wrap:  wrap;
-    font-size: 4.6vh;
+.about h3 {
+  padding-top: 20px;
+  text-wrap: wrap;
+  font-size: 4.6vh;
 }
-.about h3 a img{
-    height: 20px;
-    filter: brightness(0) invert(1);
+.about h3 a img {
+  height: 20px;
+  filter: brightness(0) invert(1);
 }
-.projtitle{
-    font-size: 6.3vh;
-    margin-inline: 25px;
+.projtitle {
+  font-size: 6.3vh;
+  margin-inline: 25px;
 }
-.projects{
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0px;
+.projects {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0px;
 }
-.aesthetisia, .warcards, .sushimenu, .XOXO, .AVA, .ELM, .LooneyLists, .NotationXL{
-    height: 420px;
-    width: 420px;
-    transform: scale(0.89);
-    background-color: #151517;
+.aesthetisia,
+.warcards,
+.sushimenu,
+.XOXO,
+.AVA,
+.ELM,
+.LooneyLists,
+.NotationXL {
+  height: 420px;
+  width: 420px;
+  transform: scale(0.89);
+  background-color: #151517;
 }
-.aesthetisia:hover, .warcards:hover, .sushimenu:hover, .XOXO:hover, .AVA:hover, .ELM:hover, .LooneyLists:hover, .NotationXL:hover{
-    background-color: #151517;
-    transform: scale(0.89);
-    transition: background-color 1s, transform 0.5s;
+.aesthetisia:hover,
+.warcards:hover,
+.sushimenu:hover,
+.XOXO:hover,
+.AVA:hover,
+.ELM:hover,
+.LooneyLists:hover,
+.NotationXL:hover {
+  background-color: #151517;
+  transform: scale(0.89);
+  transition: background-color 1s, transform 0.5s;
 }
-.moreproj{
-    margin-top: 37vh;
-    margin-bottom: 37vh;
-    font-size: 3rem;
+.moreproj {
+  margin-top: 37vh;
+  margin-bottom: 37vh;
+  font-size: 3rem;
 }
-.downloadables{
-    margin-top: 37vh;
-    font-size: 3rem;
+.downloadables {
+  margin-top: 37vh;
+  font-size: 3rem;
 }
-.resume{
-    padding-inline: 15vw;
+.resume {
+  padding-inline: 15vw;
 }
-.resume h3{
-    font-size: 1.7rem;
+.resume h3 {
+  font-size: 1.7rem;
 }
-.resume a{
-    font-size: 0.9rem;
+.resume a {
+  font-size: 0.9rem;
 }
-.bwrap{
-    font-size: 1.2rem;
+.bwrap {
+  font-size: 1.2rem;
 }
-.bwrap span{
-    width: 60px;
-    height: 60px;
+.bwrap span {
+  width: 60px;
+  height: 60px;
 }
-.footer{
-    width: 100vw;
-    padding-inline: 20px;
+.footer {
+  width: 100vw;
+  padding-inline: 20px;
 }
-.socials{
-    display: flex;
-    justify-content:flex-start;
-    padding-inline: 20px;
+.socials {
+  display: flex;
+  justify-content: flex-start;
+  padding-inline: 20px;
 }
-.socials :nth-child(2){
-    flex-direction: row;
+.socials :nth-child(2) {
+  flex-direction: row;
 }
-.socials h1{
-    font-size: 1.5rem;
+.socials h1 {
+  font-size: 1.5rem;
 }
-.socials a{
-    font-size: 1rem;
+.socials a {
+  font-size: 1rem;
 }

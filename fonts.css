@@ -1,10 +1,14 @@
 @font-face {
-    font-family: 'Style Script';
-    src: url('fonts/StyleScript-Regular.ttf') format('truetype');
+  font-family: "Style Script";
+  src: url("fonts/StyleScript-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Norwester';
-    src: url('fonts/norwester.ttf') format('truetype');
+  font-family: "Norwester";
+  src: url("fonts/norwester.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Heading Now Slim";
+  src: url("fonts/Heading-Now-Trial-37-Extrabold.ttf.woff") format("woff");
+}
