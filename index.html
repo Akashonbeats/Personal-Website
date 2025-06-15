@@ -203,12 +203,25 @@
             return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
         }
 
-        // If the browser is Safari, remove the .autoBlur class from all <h3> elements
+        // Function to get Safari version
+        function getSafariVersion() {
+            const userAgent = navigator.userAgent;
+            const safariMatch = userAgent.match(/Version\/(\d+(?:\.\d+)?)/);
+            if (safariMatch) {
+                return parseFloat(safariMatch[1]);
+            }
+            return null;
+        }
+
+        // If the browser is Safari and version is below 19.0, remove the .autoBlur class
         if (isSafari()) {
-            const h3Elements = document.querySelectorAll('h3.autoBlur');
-            h3Elements.forEach(element => {
-                element.classList.remove('autoBlur');
-            });
+            const safariVersion = getSafariVersion();
+            if (safariVersion === null || safariVersion < 19.0) {
+                const h3Elements = document.querySelectorAll('h3.autoBlur');
+                h3Elements.forEach(element => {
+                    element.classList.remove('autoBlur');
+                });
+            }
         }
     });
 
