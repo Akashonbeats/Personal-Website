@@ -133,7 +133,7 @@ body {
   font-weight: 100;
 }
 .about p {
-  margin-bottom: 37vh;
+  margin-bottom: 37dvh;
   padding-right: 30px;
   padding-left: 30px;
   font-size: 3rem;
@@ -590,8 +590,8 @@ body {
   color: #b7c0e2;
 }
 .moreproj {
-  margin-top: 20vh;
-  margin-bottom: 37vh;
+  margin-top: 20dvh;
+  margin-bottom: 37dvh;
   font-size: 3rem;
   font-weight: 100;
   color: #60667b;
