@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Akash Sampath" />
-    <meta name="description" content="Personal Portfolio of Akash Sampath" />
+    <meta
+      name="description"
+      content="Akash Sampath, Software Engineer at Comcast. I build minimalistic websites, portfolios, and creative tools blending aesthetics with function."
+    />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="apple-touch-icon" href="favicon.ico">
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <!-- Links -->
+    <link rel="canonical" href="https://akashsampath.dev/" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="logo.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fonts.css" />
     <link
@@ -15,16 +25,28 @@
       href="mobile.css"
       media="screen and (max-width: 600px)"
     />
-    <link rel="icon" href="Favicon13.ico" />
-    <meta property="og:image" content="https://akashonbeats.github.io/Personal-Website/og.jpeg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- Links -->
+
+    <!-- OG -->
+    <meta property="og:title" content="Akash Sampath's Portfolio" />
+    <meta
+      property="og:description"
+      content="Akash Sampath. Software Engineer, Freelance Website Builder and Photographer"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://akashsampath.dev/" />
+    <meta property="og:image" content="https://akashsampath.dev/og.jpg" />
+    <!-- OG -->
+
     <title>Akash Sampath</title>
   </head>
+
   <body>
     <div class="cursor" style="top: -100px; left: -100px"></div>
     <!-- Set the top and left values to -100px to make it render outside of the viewport initially -->
@@ -288,66 +310,100 @@
         >, Chennai, Tamil Nadu, India.
       </p>
     </div>
+
+    <!-- End of the HTML Elements - Start of the Scripts -->
+
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "nijx0c159o");
+
+      //////////////////////////////////////////////////////////////////////////////////////////
+
+      // WebKit (Rendering Engine) Blur Fallback
+      document.addEventListener("DOMContentLoaded", function () {
+        // Detect whether the rendering engine is (Apple) WebKit (excluding Blink-based desktop browsers).
+        function isWebKitEngine() {
+          const ua = navigator.userAgent;
+          const hasAppleWebKit = /AppleWebKit\/\d+/i.test(ua);
+          // Blink-based desktop browsers also carry the AppleWebKit token but have Chrome/Chromium/Edg/OPR etc.
+          const isBlinkDesktop =
+            /(Chrome\/|Chromium\/|Edg\/|OPR\/|SamsungBrowser\/)/i.test(ua) &&
+            !/(CriOS|FxiOS|EdgiOS|OPiOS)/i.test(ua);
+          return hasAppleWebKit && !isBlinkDesktop; // iOS alt browsers (CriOS, FxiOS, etc.) still count as WebKit.
+        }
+        // Feature sniff for scroll-linked animations support.
+        function supportsScrollLinkedAnimations() {
+          try {
+            return (
+              typeof CSS !== "undefined" &&
+              (CSS.supports("animation-timeline: scroll()") ||
+                CSS.supports("animation-timeline: view()") ||
+                "ScrollTimeline" in window)
+            );
+          } catch (_) {
+            return false;
+          }
+        }
+
+        if (isWebKitEngine()) {
+          if (!supportsScrollLinkedAnimations()) {
+            const h3Elements = document.querySelectorAll("h3.autoBlur");
+            h3Elements.forEach((el) => el.classList.remove("autoBlur"));
+          }
+        }
+      });
+
+      //////////////////////////////////////////////////////////////////////////////////////////
+
+      // Detect touch devices and remove the .cursor div
+      if ("ontouchstart" in window || navigator.maxTouchPoints) {
+        const cursorDiv = document.querySelector(".cursor");
+        if (cursorDiv) {
+          cursorDiv.remove();
+        }
+      }
+    </script>
+    <script src="cursor.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Akash Sampath",
+        "url": "https://akashsampath.dev",
+        "sameAs": [
+          "https://www.instagram.com/akashonbeats",
+          "https://www.linkedin.com/in/akashsampath/",
+          "https://github.com/akashonbeats"
+        ],
+        "logo": "https://akashsampath.dev/googleSearch.png",
+        "image": "https://akashsampath.dev/self.jpg",
+        "founder": {
+          "@type": "Person",
+          "name": "Akash Sampath",
+          "jobTitle": "Software Engineer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Comcast"
+          },
+          "knowsAbout": [
+            "Web Development",
+            "JavaScript",
+            "Swift",
+            "ElectronJS",
+            "ReactJS"
+          ]
+        }
+      }
+    </script>
   </body>
-  <script type="text/javascript">
-    (function (c, l, a, r, i, t, y) {
-      c[a] =
-        c[a] ||
-        function () {
-          (c[a].q = c[a].q || []).push(arguments);
-        };
-      t = l.createElement(r);
-      t.async = 1;
-      t.src = "https://www.clarity.ms/tag/" + i;
-      y = l.getElementsByTagName(r)[0];
-      y.parentNode.insertBefore(t, y);
-    })(window, document, "clarity", "script", "nijx0c159o");
-
-    //////////////////////////////////////////////////////////////////////////////////////////
-
-    // WebKit (Rendering Engine) Blur Fallback
-    document.addEventListener("DOMContentLoaded", function () {
-      // Detect whether the rendering engine is (Apple) WebKit (excluding Blink-based desktop browsers).
-      function isWebKitEngine() {
-        const ua = navigator.userAgent;
-        const hasAppleWebKit = /AppleWebKit\/\d+/i.test(ua);
-        // Blink-based desktop browsers also carry the AppleWebKit token but have Chrome/Chromium/Edg/OPR etc.
-        const isBlinkDesktop =
-          /(Chrome\/|Chromium\/|Edg\/|OPR\/|SamsungBrowser\/)/i.test(ua) &&
-          !/(CriOS|FxiOS|EdgiOS|OPiOS)/i.test(ua);
-        return hasAppleWebKit && !isBlinkDesktop; // iOS alt browsers (CriOS, FxiOS, etc.) still count as WebKit.
-      }
-      // Feature sniff for scroll-linked animations support.
-      function supportsScrollLinkedAnimations() {
-        try {
-          return (
-            typeof CSS !== "undefined" &&
-            (CSS.supports("animation-timeline: scroll()") ||
-              CSS.supports("animation-timeline: view()") ||
-              "ScrollTimeline" in window)
-          );
-        } catch (_) {
-          return false;
-        }
-      }
-
-      if (isWebKitEngine()) {
-        if (!supportsScrollLinkedAnimations()) {
-          const h3Elements = document.querySelectorAll("h3.autoBlur");
-          h3Elements.forEach((el) => el.classList.remove("autoBlur"));
-        }
-      }
-    });
-
-    //////////////////////////////////////////////////////////////////////////////////////////
-
-    // Detect touch devices and remove the .cursor div
-    if ("ontouchstart" in window || navigator.maxTouchPoints) {
-      const cursorDiv = document.querySelector(".cursor");
-      if (cursorDiv) {
-        cursorDiv.remove();
-      }
-    }
-  </script>
-  <script src="cursor.js"></script>
 </html>
