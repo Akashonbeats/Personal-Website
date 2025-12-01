@@ -666,19 +666,6 @@ body {
   margin-bottom: 200px;
   font-weight: 100;
 }
-.backtotop {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1c1c1f; */
-  /* background-color: #3a3a3f7e;
-  box-shadow: inset -1px -1px 0.5px rgba(255, 255, 255, 0.4), inset 1px 1px 0.5px rgba(255, 255, 255, 0.4); */
-  /* height: 8.5vh;
-  width: 8.5vh;
-  margin-left: 15px;
-  margin-right: 15px;
-  border-radius: 50%; */
-}
 .backtotoplogo{
   height: 4rem;
   width: auto;
