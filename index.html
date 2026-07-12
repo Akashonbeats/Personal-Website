@@ -18,20 +18,13 @@
     <link rel="canonical" href="https://akashsampath.dev/" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="logo.png" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="mobile.css"
       media="screen and (max-width: 600px)"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Links -->
 
     <!-- OG -->
     <meta property="og:title" content="Akash Sampath's Portfolio" />
@@ -43,7 +36,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://akashsampath.dev/" />
     <meta property="og:image" content="https://akashsampath.dev/og.jpg" />
-    <!-- OG -->
 
     <!-- WebSite Schema -->
     <script type="application/ld+json">
@@ -93,251 +85,278 @@
   </head>
 
   <body>
+    <!-- Custom Cursor -->
     <div class="cursor" style="top: -100px; left: -100px"></div>
-    <!-- Set the top and left values to -100px to make it render outside of the viewport initially -->
-    <a href="#" class="logowrap">
-      <img src="logo.svg" class="logo" />
-    </a>
-    <div class="hero">
-      <h1><span>Hello There! </span>I'm Akash Sampath</h1>
-      <p>Software Engineer at Comcast</p>
-    </div>
-    <div class="about">
-      <p>
-        And a <span>Freelance Website Builder</span>, building Minimalistic
-        Websites to showcase Personal Portfolios and Small Scale Businesses.
-      </p>
-      <h1 class="skillStack">Some of my key skills are...</h1>
-      <h3 class="autoBlur">Minimalistic Web Designing</h3>
-      <h3 class="autoBlur">Natural User Experience</h3>
-      <h3 class="autoBlur">macOS & Windows App Dev</h3>
-      <h3 class="autoBlur">Swift UI Design for iOS & iPadOS</h3>
-      <h3 class="autoBlur">Python Scripting (Automation)</h3>
-      <h1 class="techStack">Technologies I use...</h1>
-      <h3 class="autoBlur">HTML, CSS, JavaScript</h3>
-      <h3 class="autoBlur">ElectronJS</h3>
-      <h3 class="autoBlur">ReactJS</h3>
-      <h3 class="autoBlur">NodeJS</h3>
-      <h3 class="autoBlur">Swift, SwiftUI</h3>
-      <h3 class="autoBlur">
-        Git, GitHub
-        <a href="https://github.com/Akashonbeats"
-          ><img src="icons/linkicon.svg"
-        /></a>
-      </h3>
-      <h3 class="autoBlur">Docker</h3>
-      <h3 class="autoBlur">Python</h3>
-    </div>
-    <h1 class="projtitle">Some of my Projects</h1>
-    <div class="projectswrap">
-      <div class="projects">
-        <div class="aesthetisia">
-          <img src="logos/aesthetisia.png" />
-          <p>
-            My first complete website. For my instagram photography page I
-            started during college. Made with HTML, CSS, JavaScript.
+
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <a href="#" class="nav__logo" aria-label="Back to top">
+        <img src="logo.svg" alt="Akash Sampath logo" />
+      </a>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="section section--hero" data-theme="dark" id="hero">
+      <h1 class="hero__title">
+        <span>Hello There! </span>I'm Akash Sampath
+      </h1>
+      <p class="hero__subtitle">Software Engineer at Comcast</p>
+    </section>
+
+    <!-- ========== ABOUT & SKILLS ========== -->
+    <section class="section section--about" data-theme="light" id="about">
+      <div class="container">
+        <div class="fullscreen-scene">
+          <p class="about__intro animate-on-scroll">
+            And a <strong>Freelance Website Builder</strong>, building Minimalistic
+            Websites to showcase Personal Portfolios and Small Scale Businesses.
           </p>
-          <div class="aesthetisialinks">
-            <a
-              href="https://github.com/Akashonbeats/Aesthetisia-By-AkashSampath"
-              target="_blank"
-              >Visit Repository</a
-            >
-            <a
-              href="https://akashonbeats.github.io/Aesthetisia-By-AkashSampath/"
-              target="_blank"
-              >Visit Website</a
-            >
+        </div>
+
+        <!-- Key Skills -->
+        <div class="skills-block">
+          <h2 class="skills-block__title slide-in-view">
+            Some of my key skills are...
+          </h2>
+          <div class="skills-list">
+            <h3 class="skill-item auto-blur">Minimalistic Web Designing</h3>
+            <h3 class="skill-item auto-blur">Natural User Experience</h3>
+            <h3 class="skill-item auto-blur">macOS &amp; Windows App Dev</h3>
+            <h3 class="skill-item auto-blur">
+              Swift UI Design for iOS &amp; iPadOS
+            </h3>
+            <h3 class="skill-item auto-blur">Python Scripting (Automation)</h3>
           </div>
         </div>
-        <div class="warcards">
-          <img src="logos/warcards.svg" />
-          <p>
-            A simple card game that runs on swift logic. Made using Swift and
-            Swift UI.
-          </p>
-          <div class="warcardslinks">
-            <a
-              href="https://github.com/Akashonbeats/War-card-game"
-              target="_blank"
-              >Visit Repository</a
-            >
-          </div>
-        </div>
-        <div class="sushimenu">
-          <img src="logos/sushimenu.png" />
-          <p>
-            Menu Card app for an imaginary Sushi Restaurant. Made using Swift
-            and Swift UI for iOS and iPadOS.
-          </p>
-          <div class="sushimenulinks">
-            <a
-              href="https://github.com/Akashonbeats/Sushi-bar-menu"
-              target="_blank"
-              >Visit Repository</a
-            >
-          </div>
-        </div>
-        <div class="XOXO">
-          <img src="logos/XOXO.png" />
-          <p>
-            XOXO, a typical Tic Tac Toe game and my ultimate goal in terms of
-            Swift. Halfway through my planned features like Local Multiplayer,
-            Minimalist design. In the making for iOS and iPadOS.
-          </p>
-          <h5>In Progress</h5>
-          <div class="XOXOlinks">
-            <a
-              href="https://github.com/Akashonbeats/XOXO-an-XO-game"
-              target="_blank"
-              >Visit Repository</a
-            >
-          </div>
-        </div>
-        <div class="AVA">
-          <h1>AVA: The Personal Voice Assistant</h1>
-          <p>
-            Inspired from my simpler college project version. Made using Gemini
-            & OpenAI APIs on top of Python.
-          </p>
-          <div class="AVAlinks">
-            <a
-              href="https://github.com/Akashonbeats/Ava-my-voice-assistant"
-              target="_blank"
-              >Visit Repository</a
-            >
-          </div>
-        </div>
-        <div class="NotationXL">
-          <h1>Notation<span>Ex</span></h1>
-          <p>A Node.JS based Excel to JSON Converter.</p>
-          <h5>Available as a Docker Image</h5>
-          <div class="XLlinks">
-            <a
-              href="https://github.com/Akashonbeats/NotationXL-Excel-to-JSON-Converter"
-              target="_blank"
-              >Visit Repository</a
-            >
-            <a
-              href="https://hub.docker.com/r/akashonbeats/notationex"
-              target="_blank"
-              >View in Docker Hub</a
-            >
-          </div>
-        </div>
-        <div class="CafeMenu">
-          <h1>L1 Gaming Cafe <br /><span>Food Menu</span></h1>
-          <p>
-            A Web based Food Menu Card for L1 Gaming Cafe, Kolathur, Chennai.
-          </p>
-          <h5>Freelance Project</h5>
-          <div class="Menulinks">
-            <a
-              href="https://github.com/Akashonbeats/L1-Gaming-Cafe-Menu"
-              target="_blank"
-              >Visit Repository</a
-            >
-            <a
-              href="https://akashonbeats.github.io/L1-Gaming-Cafe-Menu/"
-              target="_blank"
-              >Visit Website</a
-            >
-          </div>
-        </div>
-        <div class="LooneyLists">
-          <h1>Looney <span>Lists</span></h1>
-          <p>
-            An aesthetically pleasing clutter free To-Do Manager App. Available
-            as a Browser Extension in the Microsoft Store.
-          </p>
-          <h5>v3.1 now available in store.</h5>
-          <div class="Looneylinks">
-            <a
-              href="https://github.com/Akashonbeats/Looney-Lists-Browser-Extension"
-              target="_blank"
-              >Visit Repository</a
-            >
-            <a
-              href="https://microsoftedge.microsoft.com/addons/detail/looney-lists/npolmgajfknocdmakgcpnkmpjgjplndj"
-              target="_blank"
-              >View in Microsoft Store</a
-            >
-          </div>
-        </div>
-        <div class="Shimmer">
-          <div class="ShimmerLogoWrapper">
-            <img src="logos/shimmer.png" draggable="false" />
-          </div>
-          <h1>Shimmer.</h1>
-          <p>A minimalistic notepad app built for design enthusiasts.</p>
-          <h5>Built using ElectronJS</h5>
-          <div class="ShimmerLinks">
-            <a href="https://github.com/Akashonbeats/Shimmer" target="_blank"
-              >Visit Repository</a
-            >
-            <a
-              href="https://github.com/Akashonbeats/Shimmer/releases/tag/Main"
-              target="_blank"
-              >Download for macOS & Windows</a
-            >
+
+        <!-- Technologies -->
+        <div class="skills-block">
+          <h2 class="skills-block__title slide-in-view">
+            Technologies I use...
+          </h2>
+          <div class="skills-list">
+            <h3 class="skill-item auto-blur">HTML, CSS, JavaScript</h3>
+            <h3 class="skill-item auto-blur">ElectronJS</h3>
+            <h3 class="skill-item auto-blur">ReactJS</h3>
+            <h3 class="skill-item auto-blur">NodeJS</h3>
+            <h3 class="skill-item auto-blur">Swift, SwiftUI</h3>
+            <h3 class="skill-item auto-blur">
+              Git, GitHub
+              <a href="https://github.com/Akashonbeats" target="_blank" rel="noopener"
+                ><img src="icons/linkicon.svg" alt="GitHub link" class="invert-icon"
+              /></a>
+            </h3>
+            <h3 class="skill-item auto-blur">Docker</h3>
+            <h3 class="skill-item auto-blur">Python</h3>
           </div>
         </div>
       </div>
-    </div>
-    <p class="moreproj">
-      And there's even more projects in my
-      <a href="https://github.com/Akashonbeats" target="_blank"
-        >GitHub <img src="icons/linkicon.svg"
-      /></a>
-      which I've been doing for my freelance business and sometimes just to kill
-      time.
-    </p>
-    <h1 class="downloadables">Downloadables</h1>
-    <div class="downloadswrap"></div>
-    <div class="resume">
-      <h3>Resume</h3>
-      <a href="Resume.pdf" download="Akash Sampath - Resume"
-        >Download<img src="icons/downloadicon.svg"
-      /></a>
-    </div>
-    <div class="resume">
-      <h3>Certifications</h3>
-      <a
-        href="Certificates.pdf"
-        download="Akash Sampath - Programming Certificates"
-        >Download<img src="icons/downloadicon.svg"
-      /></a>
-    </div>
-    <h1 class="bwrap">
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section class="section section--projects" data-theme="dark" id="projects">
+      <div class="container">
+        <h2 class="section__title slide-in-view">Some of my Projects</h2>
+
+        <!-- Project Pills -->
+        <div class="project-pills">
+          <button
+            class="pill"
+            data-project="aesthetisia"
+            aria-controls="project-detail"
+          >
+            <img
+              src="logos/aesthetisia.png"
+              alt="Aesthetisia"
+              class="pill__icon"
+            />
+            Aesthetisia
+          </button>
+          <button
+            class="pill"
+            data-project="warcards"
+            aria-controls="project-detail"
+          >
+            <img
+              src="logos/warcards.svg"
+              alt="War Cards"
+              class="pill__icon"
+            />
+            War Cards
+          </button>
+          <button
+            class="pill"
+            data-project="sushimenu"
+            aria-controls="project-detail"
+          >
+            <img
+              src="logos/sushimenu.png"
+              alt="Sushi Menu"
+              class="pill__icon invert-icon"
+            />
+            Sushi Menu
+          </button>
+          <button
+            class="pill"
+            data-project="xoxo"
+            aria-controls="project-detail"
+          >
+            <img src="logos/XOXO.png" alt="XOXO" class="pill__icon" />
+            XOXO
+          </button>
+          <button
+            class="pill"
+            data-project="ava"
+            aria-controls="project-detail"
+          >
+            AVA
+          </button>
+          <button
+            class="pill"
+            data-project="notationex"
+            aria-controls="project-detail"
+          ><span>Notation<span style="color:#c472fb">Ex</span></span></button>
+          <button
+            class="pill"
+            data-project="cafemenu"
+            aria-controls="project-detail"
+          >
+            L1 Gaming Cafe
+          </button>
+          <button
+            class="pill"
+            data-project="looneylists"
+            aria-controls="project-detail"
+          ><span><span style="color:#00cfb7">Looney</span> Lists</span></button>
+          <button
+            class="pill"
+            data-project="shimmer"
+            aria-controls="project-detail"
+          >
+            <img
+              src="logos/shimmer.png"
+              alt="Shimmer"
+              class="pill__icon"
+            />
+            Shimmer
+          </button>
+        </div>
+
+        <!-- Expandable Detail Container -->
+        <div class="project-detail" id="project-detail" aria-hidden="true">
+          <div class="project-detail__inner">
+            <div class="project-detail__card">
+              <button
+                class="project-detail__close"
+                aria-label="Close project details"
+              >
+                ✕
+              </button>
+              <div class="project-detail__content" id="project-detail-content">
+                <!-- Dynamically populated by animations.js -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fullscreen-scene">
+          <p class="more-projects animate-on-scroll">
+            And there's even more projects in my
+            <a href="https://github.com/Akashonbeats" target="_blank" rel="noopener"
+              >GitHub<img src="icons/linkicon.svg" alt="Link" class="invert-icon"
+            /></a>
+            which I've been doing for my freelance business and sometimes just to
+            kill time.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== DOWNLOADABLES ========== -->
+    <section
+      class="section section--downloads"
+      data-theme="light"
+      id="downloads"
+    >
+      <div class="container">
+        <h2 class="section__title slide-in-view">Downloadables</h2>
+
+        <div class="download-row animate-on-scroll">
+          <h3 class="download-row__label">Resume</h3>
+          <a
+            href="Resume.pdf"
+            download="Akash Sampath - Resume"
+            class="download-row__link"
+          >
+            Download
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </a>
+        </div>
+
+        <div class="download-row animate-on-scroll" data-delay="1">
+          <h3 class="download-row__label">Certifications</h3>
+          <a
+            href="Certificates.pdf"
+            download="Akash Sampath - Programming Certificates"
+            class="download-row__link"
+          >
+            Download
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BACK TO TOP ========== -->
+    <div class="back-to-top" data-theme="dark">
       Click
-      <span class="backtotop">
-        <img src="logo.svg" class="backtotoplogo" />
-      </span>
+      <a href="#" aria-label="Back to top">
+        <img
+          src="logo.svg"
+          alt="Akash Sampath logo"
+          class="back-to-top__logo"
+        />
+      </a>
       to go back to the top.
-    </h1>
-    <div class="footer">
-      <div class="linkswrap">
-        <div class="socials">
-          <h1>Socials</h1>
-          <a href="https://github.com/Akashonbeats" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/akashsampath/" target="_blank"
+    </div>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" data-theme="dark">
+      <div class="footer__links">
+        <div class="footer__col">
+          <h3>Socials</h3>
+          <a href="https://github.com/Akashonbeats" target="_blank" rel="noopener"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/akashsampath/"
+            target="_blank"
+            rel="noopener"
             >LinkedIn</a
           >
-          <a href="https://www.instagram.com/akashonbeats/" target="_blank"
+          <a
+            href="https://www.instagram.com/akashonbeats/"
+            target="_blank"
+            rel="noopener"
             >Instagram</a
           >
-          <a href="https://x.com/Akashonbeats" target="_blank">X</a>
+          <a href="https://x.com/Akashonbeats" target="_blank" rel="noopener"
+            >X</a
+          >
         </div>
-        <div class="socials">
-          <h1>Contacts</h1>
-          <a href="mailto:akash.s1204@gmail.com" target="_blank">E-Mail</a>
-          <a href="mailto:akash.s1204@icloud.com" target="_blank"
+        <div class="footer__col">
+          <h3>Contacts</h3>
+          <a href="mailto:akash.s1204@gmail.com" target="_blank" rel="noopener"
+            >E-Mail</a
+          >
+          <a href="mailto:akash.s1204@icloud.com" target="_blank" rel="noopener"
             >E-Mail (Spare)</a
           >
           <a href="tel:+916374152785" target="_blank">Phone</a>
         </div>
-        <div class="socials">
-          <h1>Documents</h1>
+        <div class="footer__col">
+          <h3>Documents</h3>
           <a href="Resume.pdf" download="Akash Sampath - Resume">Resume</a>
           <a
             href="Certificates.pdf"
@@ -346,18 +365,20 @@
           >
         </div>
       </div>
-      <p class="finalwords">
-        This is a Typography styled site entirely created using HTML, CSS &
+
+      <p class="footer__colophon">
+        This is a Typography styled site entirely created using HTML, CSS &amp;
         JavaScript all by Myself. Contact me by
         <a href="tel:+916374152785" target="_blank">+91 6374152785</a>,
-        <a href="mailto:akash.s1204@gmail.com" target="_blank"
+        <a href="mailto:akash.s1204@gmail.com" target="_blank" rel="noopener"
           >akash.s1204@gmail.com</a
         >, Chennai, Tamil Nadu, India.
       </p>
-    </div>
+    </footer>
 
-    <!-- End of the HTML Elements - Start of the Scripts -->
+    <!-- ========== SCRIPTS ========== -->
 
+    <!-- Microsoft Clarity -->
     <script type="text/javascript">
       (function (c, l, a, r, i, t, y) {
         c[a] =
@@ -372,60 +393,24 @@
         y.parentNode.insertBefore(t, y);
       })(window, document, "clarity", "script", "nijx0c159o");
 
-      //////////////////////////////////////////////////////////////////////////////////////////
-
-      // WebKit (Rendering Engine) Blur Fallback
-      document.addEventListener("DOMContentLoaded", function () {
-        // Detect whether the rendering engine is (Apple) WebKit (excluding Blink-based desktop browsers).
-        function isWebKitEngine() {
-          const ua = navigator.userAgent;
-          const hasAppleWebKit = /AppleWebKit\/\d+/i.test(ua);
-          // Blink-based desktop browsers also carry the AppleWebKit token but have Chrome/Chromium/Edg/OPR etc.
-          const isBlinkDesktop =
-            /(Chrome\/|Chromium\/|Edg\/|OPR\/|SamsungBrowser\/)/i.test(ua) &&
-            !/(CriOS|FxiOS|EdgiOS|OPiOS)/i.test(ua);
-          return hasAppleWebKit && !isBlinkDesktop; // iOS alt browsers (CriOS, FxiOS, etc.) still count as WebKit.
-        }
-        // Feature sniff for scroll-linked animations support.
-        function supportsScrollLinkedAnimations() {
-          try {
-            return (
-              typeof CSS !== "undefined" &&
-              (CSS.supports("animation-timeline: scroll()") ||
-                CSS.supports("animation-timeline: view()") ||
-                "ScrollTimeline" in window)
-            );
-          } catch (_) {
-            return false;
-          }
-        }
-
-        if (isWebKitEngine()) {
-          if (!supportsScrollLinkedAnimations()) {
-            const h3Elements = document.querySelectorAll("h3.autoBlur");
-            h3Elements.forEach((el) => el.classList.remove("autoBlur"));
-          }
-        }
-      });
-
-      //////////////////////////////////////////////////////////////////////////////////////////
-
-      // Detect touch devices and remove the .cursor div
+      // Touch device: remove cursor
       if ("ontouchstart" in window || navigator.maxTouchPoints) {
         const cursorDiv = document.querySelector(".cursor");
-        if (cursorDiv) {
-          cursorDiv.remove();
-        }
+        if (cursorDiv) cursorDiv.remove();
       }
     </script>
 
     <!-- Lenis Smooth Scroll -->
     <script src="scripts/lenis.min.js"></script>
     <script src="scripts/smooth-scroll.js"></script>
-    <!-- Lenis Smooth Scroll -->
 
     <!-- Cursor -->
     <script src="scripts/cursor.js"></script>
-    <!-- Cursor -->
+
+    <!-- Theme Transitions -->
+    <script src="scripts/theme.js"></script>
+
+    <!-- Scroll Animations & Project Detail Panel -->
+    <script src="scripts/animations.js?v=4"></script>
   </body>
 </html>

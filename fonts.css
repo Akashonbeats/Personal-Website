@@ -1,14 +1,37 @@
+/* Inter — used by NotationEx branding (must be first) */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+/* ================================================
+   Geist Sans — Variable Font (weights 100–900)
+   Loaded from Fontsource CDN (jsDelivr)
+   ================================================ */
+@font-face {
+  font-family: "Geist Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/geist-sans@latest/latin-wght-normal.woff2")
+    format("woff2");
+}
+
+/* ================================================
+   Project-specific display fonts (self-hosted)
+   Used within individual project cards
+   ================================================ */
 @font-face {
   font-family: "Style Script";
+  font-display: swap;
   src: url("fonts/StyleScript-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Norwester";
+  font-display: swap;
   src: url("fonts/norwester.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Heading Now Slim";
+  font-display: swap;
   src: url("fonts/Heading-Now-Trial-37-Extrabold.ttf.woff") format("woff");
 }

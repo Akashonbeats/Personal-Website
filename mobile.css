@@ -1,155 +1,194 @@
-.logo {
-  height: 3.5rem;
-    width: auto;
-  top: 30px;
-  left: 30px;
-}
-/* .logowrap {
-  height: 7vh; */
+/* ================================================================
+   MOBILE & RESPONSIVE OVERRIDES
+   Applied at max-width: 600px
+   ================================================================ */
 
-/* } */
-.hero {
-  height: 100vh;
-  margin-bottom: 10vh;;
+/* --------------------------------
+   Navigation
+   -------------------------------- */
+
+.nav {
+  top: var(--space-4);
+  left: var(--space-4);
 }
-.hero h1 span {
-  display: block;
-  margin-bottom: 10px;
+
+.nav__logo {
+  width: 44px;
+  height: 44px;
 }
-.hero h1 {
-  margin-left: 30px;
+
+/* --------------------------------
+   Hero
+   -------------------------------- */
+
+.section--hero {
+  align-items: flex-start;
   text-align: left;
-  font-size: 9.8vw;
+  padding: 0 var(--space-6);
+}
+
+.hero__title {
+  font-size: clamp(28px, 9vw, 48px);
   line-height: 1.1;
 }
-.hero p {
-  margin-left: 30px;
-  font-size: 3.5vw;
-  text-align: left;
-}
-.about {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.about p {
-  height: 80vh;
-  font-size: 2rem;
-  padding-inline: 0px;
-  margin: 0px;
-}
-.about h1 {
-  margin-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-weight: 100;
-  font-size: 6.3vh;
+
+.hero__title span {
+  display: block;
+  margin-bottom: var(--space-2);
 }
 
-.skillStack{
-    margin-top: 0px;
+.hero__subtitle {
+  font-size: clamp(13px, 3.5vw, 16px);
 }
 
-.techStack{
-    margin-top: 200px;
+/* --------------------------------
+   About & Skills
+   -------------------------------- */
+
+.about__intro {
+  font-size: clamp(20px, 5.5vw, 32px);
+  margin-bottom: var(--space-16);
 }
 
-.about h3 {
-  padding-top: 20px;
+.skills-block {
+  margin-bottom: var(--space-16);
+}
+
+.skills-block__title {
+  font-size: clamp(24px, 6vw, 40px);
+  margin-bottom: var(--space-8);
+}
+
+.skill-item {
+  font-size: clamp(20px, 5vw, 32px);
   text-wrap: wrap;
-  font-size: 4.6vh;
 }
-.about h3 a img {
-  height: 20px;
-  filter: brightness(0) invert(1);
+
+.skill-item a img {
+  height: 18px;
 }
-.projtitle {
-  font-size: 6.3vh;
-  margin-inline: 25px;
+
+/* --------------------------------
+   Projects
+   -------------------------------- */
+
+.section__title {
+  font-size: clamp(24px, 6vw, 40px);
+  margin-bottom: var(--space-8);
 }
-.projects {
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
+
+.project-pills {
+  gap: var(--space-2);
+}
+
+.pill {
+  height: 36px;
+  font-size: 13px;
+  padding: var(--space-1) var(--space-3);
+}
+
+.pill__icon {
+  width: 18px;
+  height: 18px;
+}
+
+.project-detail__card {
+  padding: var(--space-6);
+}
+
+.project-detail__name {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.project-detail__desc {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.project-detail__links {
+  flex-direction: column;
+}
+
+.link-btn {
+  width: 100%;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 0px;
+  height: 36px;
 }
-.aesthetisia,
-.warcards,
-.sushimenu,
-.XOXO,
-.AVA,
-.ELM,
-.LooneyLists,
-.NotationXL,
-.CafeMenu,
-.Shimmer {
-  height: 420px;
-  width: 420px;
-  transform: scale(0.89);
-  background-color: #151517;
+
+.more-projects {
+  font-size: clamp(16px, 4.5vw, 24px);
+  margin-top: var(--space-16);
 }
-.aesthetisia:hover,
-.warcards:hover,
-.sushimenu:hover,
-.XOXO:hover,
-.AVA:hover,
-.LooneyLists:hover,
-.NotationXL:hover,
-.CafeMenu:hover,
-.Shimmer:hover {
-  background-color: #151517;
-  transform: scale(0.89);
-  transition: background-color 1s, transform 0.5s;
+
+/* --------------------------------
+   Downloads
+   -------------------------------- */
+
+.download-row {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-6);
 }
-.moreproj {
-    font-size: 2rem;
-    padding-inline: 20px;
+
+.download-row__label {
+  font-size: clamp(20px, 5vw, 32px);
 }
-.downloadables {
-  margin-top: 37vh;
-  font-size: 3rem;
+
+.download-row__link {
+  font-size: 14px;
 }
-.resume {
-  padding-inline: 15vw;
+
+/* --------------------------------
+   Back to Top
+   -------------------------------- */
+
+.back-to-top {
+  font-size: clamp(14px, 3.5vw, 18px);
+  padding: var(--space-16) var(--space-6);
 }
-.resume h3 {
-  font-size: 1.7rem;
+
+.back-to-top__logo {
+  width: 40px;
+  height: 40px;
 }
-.resume a {
-  font-size: 0.9rem;
-}
-.bwrap {
-  font-size: 1.2rem;
-  margin-bottom: 50px;
-}
-.backtotoplogo{
-  height: 3.5rem;
-  width: auto;
-  margin-left: 15px;
-  margin-right: 15px;
-}
+
+/* --------------------------------
+   Footer
+   -------------------------------- */
+
 .footer {
-  width: 100vw;
-  padding-inline: 20px;
+  padding: var(--space-10) var(--space-6) var(--space-8);
 }
-.socials {
-  display: flex;
-  justify-content: flex-start;
-  padding-inline: 20px;
+
+.footer__links {
+  flex-direction: column;
+  gap: var(--space-10);
+  margin-bottom: var(--space-10);
 }
-.socials :nth-child(2) {
-  flex-direction: row;
+
+.footer__col h3 {
+  font-size: 16px;
+  margin-bottom: var(--space-2);
 }
-.socials h1 {
-  font-size: 1.5rem;
+
+.footer__col a {
+  font-size: 14px;
+  line-height: 20px;
 }
-.socials a {
-  font-size: 1rem;
+
+.footer__colophon {
+  font-size: 12px;
+  line-height: 16px;
 }
+
+/* --------------------------------
+   Cursor — Force hide on touch
+   -------------------------------- */
 
 @media (hover: none) and (pointer: coarse) {
   .cursor {
-    display: block;
+    display: none !important;
   }
 }
